@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Terra 3D em Tempo Real</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header id="info" class="absolute top-4 left-4 z-10 bg-black bg-opacity-50 text-white p-3 rounded-md font-inter" role="banner">
+    <a href="#" aria-label="Página inicial">
+      <img src="textures/logo.png" alt="Logo do site" />
+    </a>
+  </header>
+
+  <aside id="clock-container" class="clock absolute top-4 right-4 z-10 bg-black bg-opacity-50 text-white p-3 rounded-md font-inter flex flex-col items-end shadow-lg" role="complementary" aria-label="Relógio com hora atual">
+    <time id="current-time" class="text-3xl font-bold mb-1 text-blue-300" datetime=""></time>
+  </aside>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

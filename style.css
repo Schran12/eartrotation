@@ -1,0 +1,29 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    overflow: hidden;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Tailwind CSS classes (assuming Tailwind is loaded or these are custom classes) */
+.absolute { position: absolute; }
+.top-4 { top: 1rem; }
+.left-4 { left: 3rem; }
+.right-4 { right: 2rem; }
+
+.clock {
+    margin-top: 5px;
+}
+canvas {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+}
